@@ -1,8 +1,22 @@
 language: node_js
 node_js:
+<<<<<<< HEAD
   - '0.10'
   - '0.11'
 before_script:
   - npm install -g bower grunt-cli
   - bower install
 services: mongodb
+=======
+  - "0.12"
+  - "0.11"
+  - "0.10"
+  - "0.8"
+  - "0.6"
+  - "iojs"
+  - "iojs-v1.0.4" 
+
+after_success:
+- ./node_modules/.bin/jscoverage lib lib-cov
+- ./node_modules/.bin/mocha Test/**.js -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
+>>>>>>> 4f4a2d98b9871a72d336cefeb5135095fd49725c

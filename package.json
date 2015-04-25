@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "udeacademic",
   "version": "0.0.0",
   "main": "server/app.js",
@@ -91,4 +92,39 @@
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
   "private": true
+=======
+  "name": "hello-mongoose",
+  "version": "0.2.0",
+  "description": "MongoDB with Mongoose on Node.js example",
+  "main": "app.js",
+  "engines": {
+    "node": "0.10.31",
+    "npm": ">=1.4"
+  },
+  "repository": "https://github.com/mongolab/hello-mongoose.git",
+  "authors": [
+    "Ben Wen",
+    "Chris Chang"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "3.8.15"
+  },
+  "changelog": [
+    {
+      "0.0.0": "Initial release"
+    },
+    {
+      "0.1.0": "Update to Mongoose 3.5.7; new MongoClient semantics"
+    },
+    {
+      "0.2.0": "Update to Mongoose 3.8.15; updated Node engine to 0.10.31; updated npm engine to >=1.4"
+    }
+  ],
+  "homepage": "http://hello-mongoose.herokuapp.com",
+  "devDependencies": {
+    "coveralls": "2.11.2",
+    "mocha-lcov-reporter": "0.0.2"
+  }
+>>>>>>> 4f4a2d98b9871a72d336cefeb5135095fd49725c
 }

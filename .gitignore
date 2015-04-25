@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 public
 .tmp
@@ -5,3 +6,22 @@ public
 client/bower_components
 dist
 /server/config/local.env.js
+=======
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+.DS_Store
+
+pids
+logs
+results
+
+node_modules
+npm-debug.log
+>>>>>>> 4f4a2d98b9871a72d336cefeb5135095fd49725c

@@ -8,7 +8,9 @@ module.exports = function (grunt) {
   } catch(e) {
     localConfig = {};
   }
-
+    
+grunt.registerTask('heroku:production', 'clean less mincss uglify');
+    
   // Load grunt tasks automatically, when needed
   require('jit-grunt')(grunt, {
     express: 'grunt-express-server',
